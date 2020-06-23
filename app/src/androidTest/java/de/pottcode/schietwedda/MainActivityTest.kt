@@ -24,6 +24,6 @@ class MainActivityTest {
     @Test
     fun checkCityNameIsDisplayedCorrectly() {
         onView(withId(R.id.button_fetch_forecast)).perform(click())
-        onView(withId(R.id.textView_weather_forecast)).check(matches(withText("City: Bochum")))
+        onView(withId(R.id.textView_weather_forecast)).check(matches(withText("Hello World")))
     }
 }
